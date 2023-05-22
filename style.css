@@ -1,0 +1,87 @@
+:root{
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 644px;
+    height: 450px;
+    display: grid;
+    border-radius: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 10px 10px 25px 10px hsl(221, 100%, 96%);
+    
+}
+
+.card1 {
+    grid-template-columns: 1 2;
+    background:linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
+    border-radius: 1.5rem;
+}
+.card1 h3{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+    color: hsl(241, 100%, 89%);
+}
+.card1 .porcentaje {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), rgba(0, 0, 0, .0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    margin-top: 2rem;
+    margin-left: 25%;
+}
+.card1 .porcentaje span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+
+}
+.card1 .porcentaje p {
+    color:  hsl(241, 100%, 89%);
+    opacity: 0.4;
+    font-size: 0.8rem;
+}
+.card1 h2{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 2rem;
+}
+.card1 p.footer{
+    font-size: .95rem;
+    text-align: center;
+    color:   hsl(241, 100%, 89%);
+    padding: 1rem 2rem 2rem 2rem;
+}
+.card2 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius:1.5rem ;
+}
