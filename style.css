@@ -29,7 +29,9 @@ body{
 
 
 .card {
-    display: grid;
+    display: flex;
+    align-items: center;
+    width: 90vh;
     border-radius: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
     box-shadow: 10px 10px 25px 10px hsl(221, 100%, 96%);
