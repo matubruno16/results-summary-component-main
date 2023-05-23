@@ -38,6 +38,7 @@ body{
     }
 
 .card1 {
+    display: grid;
     grid-template-columns: 1 2;
     background:linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
     border-radius: 1.5rem;
