@@ -165,9 +165,6 @@ body{
     font-size: .8rem;
     font-weight: 700;
 }
-.btn:hover{
-background: linear-gradient( 252, 100%, 67%,  241, 81%, 54%);
-}
 
 @media (max-width: 375px) {
     body{
