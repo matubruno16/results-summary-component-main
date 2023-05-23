@@ -165,7 +165,10 @@ body{
     font-size: .8rem;
     font-weight: 700;
 }
-
+.btn:hover{
+    background: linear-gradient( hsl(224, 30%, 27%), hsl(224, 58%, 41%));
+    cursor: pointer;
+}
 @media (max-width: 375px) {
     body{
         display: inline-block;
